@@ -1,0 +1,212 @@
+
+:root{
+    --color-footer: #6D893C;
+    --color-iconos: #3F2503;
+}
+body {
+    margin: 0;
+    padding: 0;}
+
+
+  /*footer*/
+    
+    
+.copy{
+    background: var(--color-footer) 
+}
+
+.iconos {
+    color: var(--color-iconos);
+}
+h2 {
+    color: #BDD8AD;
+}
+footer a{
+    text-decoration: none;
+    color: var(--color-iconos);
+    padding: 10px;
+    
+}
+
+.iconos i {
+    margin-bottom: 10px;
+}
+
+
+    
+ /*nav*/
+    #navbarNav{
+        flex: 1;
+        display: flex;
+        justify-content: right;
+        padding: 80px;
+        font-family: Em One ;
+     }
+     .ul-navbar-nav{
+       margin-left: 20px;
+     } 
+
+     .logo img {
+        width: 200px;
+        padding: 15px;
+    }
+
+    .container-fluid {
+        margin-top: -130px;}
+
+        li a:hover{
+            border: 1px solid rgb(186, 178, 178);
+            background: #7ee48f;
+            border-radius: 10px;
+            color: #fff;
+            font-family: "Em One";
+            }
+
+
+/*fin nav*/
+
+        h5 {
+            color: #8ffe98;
+            font-family: Em One SemiBold ;
+            font-size: 40px;
+        }
+        
+        .carousel-inner   p{
+            font-size: 30px;
+            color: #fff;
+            font-family: Em One SemiBold ;
+        } 
+
+.card-title{
+    font-family: Em One;
+    font-size: 30px;
+    color: #3dbf47;
+}
+
+.card {
+    width: 800px;
+}
+
+
+.card1, .card2 {
+    width: 800px;
+    background-color: #1c3c1f;
+    padding: 30px;
+}
+
+.card2 {
+    margin-left: 100px;
+}
+
+
+.card-body {
+    background-color: #fff;
+}
+
+.card-body img {
+   width: 600px;}
+
+.container1 {
+    display: flex;
+    width: 200px;
+    margin-left: 150px;
+}
+
+.container1 h2 {
+    width: 250px;
+}
+
+/*formulario*/
+.formulario {
+    width: 300px;
+    height: 490px;
+    margin-top: -530px;
+    padding: 20px;
+   margin-left: -1140px;
+    background-color:#6D893C;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family: Em One;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid #dce0d5;
+    border-radius: 4px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+.container2 img{
+    width: 600px;
+    padding: 15px;
+    margin-right: 100px;
+}
+
+
+@media screen and (max-width:75rem) /*1200*/ {
+    .container1 {margin-left: 50px;}
+    .container2 img {width: 500px; margin-right: 345px;}
+    .formulario {margin-left: 10px; width: 800px; margin-top: 30px; margin-right: 180px;}
+
+}
+
+@media screen and (max-width:62rem) /*992*/ {
+    .container1 {margin-left: 50px;}
+    .card1 {width: 600px; margin-left: 50px ;}
+    .card2 {width: 600px; margin-left: 50px ;}
+
+    .container2 img {width: 500px; margin-right: 280px;}
+    .formulario {margin-left: 10px; width: 500px; margin-top: 30px; margin-right: 280px;}
+
+}
+
+
+@media screen and (max-width:48rem) {/*768*/ 
+    .card1 {width: 400px; margin-left: 50px ;}
+    .card2 {width: 400px; margin-left: 50px ;}
+    .container1 {margin-left: 50px;}
+    .container2 img {width: 350px; margin-left: 400px;}
+    .formulario {margin-left: 10px; width: 300px; margin-top: -200px; margin-right: 440px;}
+  }
+
+
+
+
+@media screen  and (max-width:36rem){/*576*/
+    .card1 {width: 250px; margin-left: 50px ;}
+    .container1 {margin-left: 50px;}
+    .container2 img {width: 300px; margin-right: 130px; margin-left: 50px;}
+    .formulario {margin-left: 10px; width: 300px; margin-top: 30px; margin-right: 130px;}
+
+}
+
+
+
+
+

@@ -1,0 +1,99 @@
+:root{
+    --color-footer: #6D893C;
+    --color-iconos: #3F2503;
+}
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*nav*/
+.logo img {
+    width: 300px;
+    padding: 30px; }
+
+.row1{
+    margin-top: -110px;
+}
+
+
+#navbarNav{
+   flex: 1;
+   display: flex;
+   justify-content: right;
+   padding: 80px;
+   font-family: Em One ;
+   
+}
+li a:hover{
+    border: 1px solid rgb(186, 178, 178);
+    background: #7ee48f;
+    border-radius: 10px;
+    color: #fff;
+    font-family: "Em One";
+    }
+
+    /*fin nav*/
+
+
+.card-title {
+    font-size: 30px;
+    
+}
+
+.card {
+    padding: 15px;
+}
+
+h5 {
+    color: #0a0e0c;
+    font-family: Em One SemiBold ;
+    font-size: 40px;
+}
+
+p {
+    font-size: 25px;
+    color: #221e17;
+}
+
+
+.copy p {
+    color: white;
+}
+
+.copy{
+    background: var(--color-footer) 
+}
+
+.iconos {
+    color: var(--color-iconos);
+}
+h2 {
+    color: #BDD8AD;
+}
+footer a{
+    text-decoration: none;
+    color: var(--color-iconos);
+    padding: 10px;
+    
+}
+
+.iconos i {
+    margin-bottom: 10px;
+}
+
+
+
+/*animación*/
+.card {
+    width: 300px; /* Ajusta el tamaño según necesites */
+    transition: transform 0.3s ease; /* Transición suave */
+}
+
+.card :hover{
+    transform: scale(1.2); /* Aumenta el tamaño al pasar el mouse */
+}
+
+
+    
